@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>周龙简历 | 个人作品集</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <a href="#">Dev<span>Portfolio</span></a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-item">关于我</a></li>
+                    <li><a href="#skills" class="nav-item">技能</a></li>
+                    <li><a href="#projects" class="nav-item">项目</a></li>
+                    <li><a href="#experience" class="nav-item">经历</a></li>
+                    <li><a href="#contact" class="nav-item">联系我</a></li>
+                </ul>
+                <div class="theme-switch">
+                    <i class="fas fa-moon"></i>
+                </div>
+                <div class="menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="animate-text">你好，我是<span class="highlight">周龙</span></h1>
+                    <h2 class="animate-text delay-1">软件运维工程师</h2>
+                    <p class="animate-text delay-2">专注于服务器故障抢修、高效且快速的维护应用程序</p>
+                    <div class="cta-buttons animate-text delay-3">
+                        <a href="#projects" class="btn primary">查看作品</a>
+                        <a href="#contact" class="btn secondary">联系我</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-container">
+                        <img src="./images/profile.jpg" alt="" class="profile-image">
+                        <div class="status-indicator">可接受工作机会</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>关于我</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>我是一名拥有1年经验的运维工程师，热衷于维护高质量的Web应用集群。我注重代码质量和性能提升，善于将复杂问题简化并找到优雅的解决方案。</p>
+                    <p>在我的职业生涯中，我参与了多个大型项目的部署与研发，从初创公司的MVP到企业级应用的重构。我喜欢学习新技术，并将其应用到实际项目中。</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">1+</span>
+                            <span class="stat-label">年工作经验</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">完成项目</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">技术栈</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="./images/about.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section gray-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2>技能专长</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Web前端</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item" data-skill="HTML/CSS">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <h4>HTML/CSS</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-item" data-skill="JavaScript">
+                            <div class="skill-icon"><i class="fab fa-js"></i></div>
+                            <h4>JavaScript</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-item" data-skill="React">
+                            <div class="skill-icon"><i class="fab fa-react"></i></div>
+                            <h4>React</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-item" data-skill="Vue">
+                            <div class="skill-icon"><i class="fab fa-vuejs"></i></div>
+                            <h4>Vue</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>编程语言</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item" data-skill="Node.js">
+                            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                            <h4>Node.js</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-item" data-skill="Python">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <h4>Python</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-item" data-skill="Java">
+                            <div class="skill-icon"><i class="fab fa-java"></i></div>
+                            <h4>Java</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <div class="skill-item" data-skill="SQL">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <h4>SQL</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>工具与方法</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item" data-skill="Git">
+                            <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                            <h4>Git</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-item" data-skill="Docker">
+                            <div class="skill-icon"><i class="fab fa-docker"></i></div>
+                            <h4>Docker</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-item" data-skill="CI/CD">
+                            <div class="skill-icon"><i class="fas fa-code-branch"></i></div>
+                            <h4>CI/CD</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-item" data-skill="Agile">
+                            <div class="skill-icon"><i class="fas fa-tasks"></i></div>
+                            <h4>敏捷开发</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>精选项目</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="web">Web应用</button>
+                <button class="filter-btn" data-filter="mobile">移动应用</button>
+                <button class="filter-btn" data-filter="other">其他项目</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="./images/project1.jpg" alt="项目截图">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>智能客户管理系统</h3>
+                        <p>基于React和Node.js的企业级CRM系统，集成AI分析功能，提升客户转化率30%。</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>TensorFlow.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <img src="./images/project2.jpg" alt="项目截图">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>健康追踪应用</h3>
+                        <p>React Native开发的跨平台健康应用，支持活动追踪、饮食记录和睡眠分析，用户超过10万。</p>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Redux</span>
+                            <span>HealthKit</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="./images/project3.jpg" alt="项目截图">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>电子商务平台</h3>
+                        <p>基于Vue.js和Spring Boot的全栈电商平台，支持多商户入驻、支付集成和实时库存管理。</p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Spring Boot</span>
+                            <span>MySQL</span>
+                            <span>Redis</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="other">
+                    <div class="project-image">
+                        <img src="./images/project4.jpg" alt="项目截图">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>数据可视化工具</h3>
+                        <p>使用D3.js开发的企业数据可视化仪表板，帮助决策者实时监控业务指标和趋势。</p>
+                        <div class="project-tech">
+                            <span>D3.js</span>
+                            <span>TypeScript</span>
+                            <span>Express</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <img src="./images/project5.jpg" alt="项目截图">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>社交媒体应用</h3>
+                        <p>Flutter开发的社交媒体应用，支持实时聊天、视频分享和内容推荐算法。</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Dart</span>
+                            <span>Firebase</span>
+                            <span>WebRTC</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="other">
+                    <div class="project-image">
+                        <img src="./images/project6.jpg" alt="项目截图">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>AI内容生成器</h3>
+                        <p>基于Python和TensorFlow的AI内容生成工具，可自动创建文章、图像和视频脚本。</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>Flask</span>
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view-more">
+                <a href="#" class="btn secondary">查看更多项目</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section gray-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2>工作经历</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021 - 至今</div>
+                    <div class="timeline-content">
+                        <h3>中级运维工程师</h3>
+                        <h4>科技创新有限公司</h4>
+                        <p>负责公司核心产品的架构设计和开发，带领5人团队完成多个关键项目，优化系统性能提升40%。</p>
+                        <ul>
+                            <li>重构遗留代码，将系统响应时间减少60%</li>
+                            <li>设计并实现微服务架构，提高系统可扩展性</li>
+                            <li>引入CI/CD流程，缩短发布周期80%</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2019 - 2021</div>
+                    <div class="timeline-content">
+                        <h3>前端开发工程师</h3>
+                        <h4>互联网科技有限公司</h4>
+                        <p>负责公司电商平台的前端开发和优化，提升用户体验和转化率。</p>
+                        <ul>
+                            <li>使用React重构前端架构，提高页面加载速度50%</li>
+                            <li>开发响应式设计，支持多种设备访问</li>
+                            <li>实现A/B测试框架，优化用户转化流程</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2017 - 2019</div>
+                    <div class="timeline-content">
+                        <h3>软件开发工程师</h3>
+                        <h4>数字科技有限公司</h4>
+                        <p>参与企业管理系统的开发和维护，负责后端API和数据库设计。</p>
+                        <ul>
+                            <li>设计并实现RESTful API，支持移动端和Web端</li>
+                            <li>优化数据库查询，提高系统响应速度</li>
+                            <li>开发自动化测试套件，提高代码质量</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>联系我</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>让我们开始合作吧</h3>
+                    <p>无论是全职机会、自由职业项目还是技术咨询，我都很乐意与您交流。</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>邮箱</h4>
+                                <p>example@email.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>电话</h4>
+                                <p>+86 123 4567 8910</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>地点</h4>
+                                <p>宁夏银川市金凤区</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">姓名</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">邮箱</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">主题</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">消息</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#">Dev<span>Portfolio</span></a>
+                </div>
+                <div class="footer-nav">
+                    <a href="#about">关于我</a>
+                    <a href="#skills">技能</a>
+                    <a href="#projects">项目</a>
+                    <a href="#experience">经历</a>
+                    <a href="#contact">联系我</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 周龙的个人作品集. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
